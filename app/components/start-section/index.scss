@@ -1,0 +1,32 @@
+.start-section {
+  padding: 96px 0;
+  background: #7f52ff radial-gradient(
+    89.53% 145.96% at 0.34% 100.79%,
+    #ef4857 0%,
+    #de4970 17.58%,
+    #b44db0 50.31%,
+    #7f52ff 97.03%
+  );
+  color: white;
+}
+
+.start-section__eyebrow {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.start-section__grid {
+  margin-top: 48px;
+}
+
+.start-section__title {
+  margin: 0;
+  max-width: 1000px;
+  font-size: 56px;
+  line-height: 1.1;
+}
+
+.start-section__actions {
+  margin-top: 48px;
+}

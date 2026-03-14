@@ -1,0 +1,67 @@
+.latest-from-kotlin-section {
+  background-color: transparent;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.latest-from-kotlin-section h2 {
+  font-size: 56px;
+  margin: 0;
+}
+
+.latest-from-kotlin-section__banner {
+  margin-top: 32px;
+}
+
+.latest-from-kotlin-section__banner-link {
+  display: block;
+  font-size: 0;
+  line-height: 0;
+}
+
+.latest-from-kotlin-section__banner img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.latest-from-kotlin-section__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  margin-top: 32px;
+}
+
+@media (max-width: 900px) {
+  .latest-from-kotlin-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .latest-from-kotlin-section__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.latest-from-kotlin-section__tag {
+  font-size: 14px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.latest-from-kotlin-section__title {
+  margin-top: 8px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.latest-from-kotlin-section__title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.latest-from-kotlin-section__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}

@@ -1,0 +1,97 @@
+.header-section {
+  background-color: transparent;
+  padding-top: 96px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.header-title {
+  font-size: 48px;
+  line-height: 1.1;
+  max-width: 900px;
+  margin: 0;
+}
+
+.header-section__actions {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header-section__actions {
+    flex-direction: column;
+  }
+}
+
+.header-section__my-btn {
+  margin-left: 16px;
+}
+
+.header-section__contributors {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.header-cards {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.header-card {
+  display: block;
+  padding: 20px;
+  border-radius: 16px;
+  text-decoration: none;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.header-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-card h2 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.header-card p {
+  margin: 0;
+}
+
+.header-links {
+  margin-top: 32px;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid currentColor;
+}

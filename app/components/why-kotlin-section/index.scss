@@ -1,0 +1,62 @@
+.why-kotlin-section {
+  background-color: #fff;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.why-kotlin-section h2 {
+  font-size: 56px;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.why-kotlin-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 32px;
+  margin-top: 96px;
+}
+
+@media (max-width: 900px) {
+  .why-kotlin-row {
+    grid-template-columns: 1fr;
+    margin-top: 48px;
+  }
+}
+
+.why-kotlin-text h3 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.why-kotlin-text p {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.why-kotlin-actions {
+  margin-top: 24px;
+}
+
+.why-kotlin-section__youtube {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.why-kotlin-section__youtube iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.why-kotlin-section__image {
+  max-width: 650px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
