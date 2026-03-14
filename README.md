@@ -1,87 +1,55 @@
-# Welcome to React Router!
+# Kotlin Homepage Migration (React Router 7 + SSR)
 
-A modern, production-ready template for building full-stack React applications using React Router.
+This project migrates a legacy React homepage from the Kotlin website to
+**React Router 7 Framework Mode with Server-Side Rendering (SSR)**.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+The original source project is a simplified version of
+https://kotlinlang.org containing only the homepage.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+-   React Router 7 Framework Mode
+-   Server-Side Rendering (SSR)
+-   Preserved visual layout of the original Kotlin homepage
+-   Interactive functionality preserved:
+    -   Kotlin code example tabs
+    -   Sorting in the usage highlights section
+-   Component-based structure
 
-## Getting Started
+## Installation
 
-### Installation
+Clone the repository:
 
-Install the dependencies:
+    git clone https://github.com/raup20/kotlin-homepage-migration.git
+    cd kotlin-homepage-migration
 
-```bash
-npm install
-```
+Install dependencies:
 
-### Development
+    npm install
 
-Start the development server with HMR:
+## Development
 
-```bash
-npm run dev
-```
+Run the development server:
 
-Your application will be available at `http://localhost:5173`.
+    npm run dev
 
-## Building for Production
+Open:
 
-Create a production build:
+    http://localhost:5173
 
-```bash
-npm run build
-```
+## Production
 
-## Deployment
+Build the project:
 
-### Docker Deployment
+    npm run build
 
-To build and run using Docker:
+Start the SSR server:
 
-```bash
-docker build -t my-app .
+    npm run start
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+## Notes
 
-The containerized application can be deployed to any platform that supports Docker, including:
+-   The project contains only the homepage.
+-   Navigation links are intentionally non-functional, matching the
+    original assignment constraints.
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
